@@ -1,0 +1,23 @@
+#Previous Year rakuten Paper
+![image](https://user-images.githubusercontent.com/59665012/196138012-dcc9ac62-0466-420d-b320-37580a6903fd.png)
+![image](https://user-images.githubusercontent.com/59665012/196138091-f5c36954-b2b5-4192-9ead-4e803622c947.png)
+![image](https://user-images.githubusercontent.com/59665012/196138155-adbbe8cf-6926-46df-8b13-311d5ff155e8.png)
+![image](https://user-images.githubusercontent.com/59665012/196138176-46675960-2f77-4892-8b1b-7d36fe494d97.png)
+![image](https://user-images.githubusercontent.com/59665012/196138244-565c0356-8bd0-470f-8d41-3d9914487451.png)
+![image](https://user-images.githubusercontent.com/59665012/196138283-ebbcbf60-ff7b-49ad-848a-dea0b561082f.png)
+![image](https://user-images.githubusercontent.com/59665012/196138319-c6aa0d6a-6705-49fa-b21f-f834704ffb1d.png)
+![image](https://user-images.githubusercontent.com/59665012/196138372-8381f059-f421-4bbd-a9bf-35ca461a354c.png)
+![image](https://user-images.githubusercontent.com/59665012/196138412-88b38a06-4522-4b3f-ba37-74408612c177.png)
+![image](https://user-images.githubusercontent.com/59665012/196138457-000af55d-7a3c-4679-8303-fa2c06275b88.png)
+![image](https://user-images.githubusercontent.com/59665012/196138534-64df0ef4-b01f-42a1-8acd-b638aff32b52.png)
+![image](https://user-images.githubusercontent.com/59665012/196138715-60f98b79-ac20-4905-9a06-3658e1c367df.png)
+![image](https://user-images.githubusercontent.com/59665012/196138756-930c2460-172d-4b0d-92ff-0cb91840c48b.png)
+![image](https://user-images.githubusercontent.com/59665012/196138809-af891b34-1828-4589-bccf-10252f1badfc.png)
+
+
+![image](https://user-images.githubusercontent.com/59665012/196138839-8f7ed177-cb2e-4fb0-ad93-f1cb6f61dec9.png)
+![image](https://user-images.githubusercontent.com/59665012/196138868-a1727394-b86b-4a65-b45e-5be153589276.png)
+![image](https://user-images.githubusercontent.com/59665012/196139111-1b03c72e-a2ad-44c8-bfaf-73e5bd80df25.png)
+![image](https://user-images.githubusercontent.com/59665012/196139151-b43aa0b9-81d8-40ed-9dd8-abd91c23c004.png)
+![image](https://user-images.githubusercontent.com/59665012/196139243-0bbeccf9-27b3-4da6-ab6f-69c565453e12.png)
+![image](https://user-images.githubusercontent.com/59665012/196139287-b0792909-5b1d-4e78-ab0c-c79ce38a7ccf.png)
