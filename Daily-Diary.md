@@ -1,3 +1,50 @@
+Day 21 October
+## DIGIT DP problem and patterns
+
+```
+
+//Number of number X no more than n, whos digit sum is = 17
+int n, sum, len;
+int dp[101][181][2];
+int helper( string &s, int size, int sum, bool tight){
+    
+    if(sum<0 || size<0) return 0;
+    if(size==0){
+        if(sum==0) return 1;
+        return 0;
+    }
+    
+    if(dp[size][sum][tight]!=-1)
+    return dp[size][sum][tight];
+    
+    int res =0;
+    int ub = tight>0?s[s.size()-size]-'0':9;
+    
+    for(int i = 0; i <= ub; i++){
+    	//(tight && (i==ub)), if incoming tight ==1 then and i is upper bound limt then in next recursion we need to pass tight so that number doesn't increase then actual number
+        res+=helper(s, size-1, sum-i, (tight && (i==ub)) );
+    }
+    
+    return dp[size][sum][tight]=res;
+}
+
+void solve(int testcase){
+    
+    cin>>n>>sum;
+    string s = to_string(n);
+    len = s.size();
+    memset(dp, -1, sizeof(dp));
+    //Above dp represent 3 states, n is nth digit of number X from right, 18 represent total required sum, 2 is state of tight/!tight
+    //dp[2][7][1] represent number of numbers X, whose digit sum is 7, 
+    
+    int ans = helper(s, len, sum, 1);
+    cout<<ans<<endl;
+    return;
+}
+
+
+```
+
 ### https://www.geeksforgeeks.org/queries-for-elements-greater-than-k-in-the-given-index-range-using-segment-tree/
 ```
 #include <bits/stdc++.h>
