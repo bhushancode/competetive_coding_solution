@@ -1,4 +1,33 @@
 Day 22
+
+## MInimum number with sum N, here we can include dp[12][sum][2] 
+```
+int min_num = INT_MAX;
+
+int helper(string s, int idx, int sum, bool tight, string digit){
+    if(sum<0) return 0;
+    if(idx==0){
+        if(sum==0){ 
+            int temp = stoi(digit);
+            if(temp<min_num) min_num=temp;
+            return 1;}
+        return 0;
+    } 
+    int res = 0;
+    int ub = tight>0?s[s.size()-idx]-'0':9;
+    
+    for(int i=0;i<=ub;i++){
+        digit+=(i+'0');
+        res+=helper(s, idx-1, sum-i, (tight & (i==ub)), digit);
+        digit.pop_back();
+    }
+    
+    return res;
+    
+}
+
+//In int main print the value of min_num
+```
 ## Make all 1 consistent
 
 ```
