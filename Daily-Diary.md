@@ -1,3 +1,30 @@
+Day 22
+## Make all 1 consistent
+
+```
+void solve(int testcase){
+    string s;
+    cin>>s;
+    
+    int res = 0;
+    int countR = 0;
+    int totalR = 0;
+    for(int i=0;i<s.size();i++){
+        if(s[i]=='R') totalR++;
+    }
+    for(int i=0;i<s.size();i++){
+        if(s[i]=='R') countR++;
+        else{
+            res+=min(countR, totalR-countR);
+        }
+    }
+    
+    cout<<res<<endl;
+    
+    return;
+}
+```
+
 Day 21 October
 ## DIGIT DP problem and patterns
 
