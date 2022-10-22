@@ -1,6 +1,19 @@
 Day 22
 
 ## MInimum number with sum N, here we can include dp[12][sum][2] 
+-- Another best solution
+```
+string smallestNumber(int n)
+{
+    // greedily put 9s until we cannot and then place the element required (n % 9) at front
+    int nines = n / 9;
+    int first = n % 9;
+    string res = "";
+    res += to_string(first);
+    res += string(nines, '9');
+    return res;
+}
+```
 ```
 int min_num = INT_MAX;
 
